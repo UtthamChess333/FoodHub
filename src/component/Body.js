@@ -91,11 +91,8 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap ">
         {filteredRestaurant.map((restaurant) => {
-          {
-            /* console.log(restaurant?.card?.card?.info?.id); */
-          }
           return (
             <Link
               key={restaurant?.card?.card?.info?.id}
